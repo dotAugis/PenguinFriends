@@ -4,9 +4,9 @@ import './StartMain.css';
 class StartMain extends Component {
     render() {
         return (
-        <div>
+        <div className='f3 tc'>
         <h1>Testing</h1>
-        <p>Return unreachable code</p>
+        <p>{this.props.greeting}</p>
         </div>
         );
     }
