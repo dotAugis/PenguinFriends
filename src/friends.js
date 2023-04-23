@@ -1,4 +1,4 @@
-export const cats = [
+export const friends = [
     {
       id: 1,
       name: 'Leanne Graham',
