@@ -3,6 +3,7 @@ import CardList from './CardList';
 import SearchBox from './SearchBox';
 import { friends } from "./friends";
 
+
 class App extends Component {
   constructor() {
     super()
@@ -22,7 +23,7 @@ class App extends Component {
     })
     return (
       <div className='tc'>
-        <h1>SocialFriends</h1>
+        <h1><span>social</span>Friends</h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <CardList friends={filteredFriends}/>
       </div>
