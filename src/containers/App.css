@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.title {
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: .75rem;
+    margin-top: 1.5rem; 
+}
+
+span {
+    color: #98a4ff;
+}
+
+h1, .loading {
+    color: white;
+}
